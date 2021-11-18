@@ -1,0 +1,27 @@
+Part 1 - Variables
+==============================
+
+Data Types - string, boolean, number
+
+String- A JavaScript string is zero or more characters written inside quotes.
+example- let carName1 = "Volvo XC60";  // Double quotes
+	 let carName2 = 'Volvo XC60';  // Single quotes
+
+Boolean- A JavaScript Boolean represents one of two values: true or false.
+example- Boolean(10 > 9);
+	 Output-True
+
+Number- JavaScript has only one type of number. Numbers can be written with or without decimals.
+example- let x = 3.14;    // A number with decimals
+         let y = 3;       // A number without decimals
+
+Array- An array is a special variable, which can hold more than one value:
+example- const cars = ["Saab", "Volvo", "BMW"];
+
+
+JS Object- A javaScript object is an entity having state and behavior (properties and method). For example: car, pen, bike, chair, glass, keyboard, monitor etc.
+
+JavaScript is an object-based language. Everything is an object in JavaScript.
+
+JavaScript is template based not class based. Here, we don't create class to get the object. But, we direct create objects.
+

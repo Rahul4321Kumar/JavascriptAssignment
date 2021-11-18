@@ -1,0 +1,50 @@
+Study about the git and its commands with full understanding.
+
+Part 1 - Basics
+
+    Local & Remote
+
+    init
+
+    config
+
+    clone
+
+    fetch
+
+    pull
+
+    push
+
+Part 2 - Commit Lifecycle
+
+    add
+
+    commit
+
+    reset
+
+    rm
+
+    amend
+
+Part 3 - More than Basics
+
+    diff
+
+    log
+
+    stash
+
+    revert
+
+New Learnings 
+git k analysis
+git amend
+force push analysis
+how to unstaged files
+difference between ssh and https url during clone
+use rm
+diff between two branches
+
+

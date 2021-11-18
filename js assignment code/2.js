@@ -1,18 +1,18 @@
 // Problem 2: Complete the calculateFrequency function that takes lowercase string as input and returns frequency of all english alphabet. (using only array, no in-built function)
 function calculateFrequency(string) {
     // Write your code here
-     var frequency = {};
+     var freq = {};
       for (var index=0; index<string.length;index++) {
           var character = string.charAt(index);
-          if (frequency[character]) {
+          if (freq[character]) {
               console.log(object)
-             frequency[character]++;
+             freq[character]++;
           } else {
-             frequency[character] = 1;
+             freq[character] = 1;
           }
       }
   
-      return frequency;
+      return freq;
   
   }
   
