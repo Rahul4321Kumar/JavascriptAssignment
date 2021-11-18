@@ -2,15 +2,15 @@
 function flatten(unflatObject) {
     // Write your code here
        let result = {};
-     for (const i in unflatObject) {
-       if ((typeof unflatObject[i]) === 'object' && !Array.isArray(unflatObject[i])) {
-              const temp = flatten(unflatObject[i]);
-              for (const j in temp) {
-        result[i + '.' + j] = temp[j];
+     for (const index in unflatObject) {
+       if ((typeof unflatObject[index]) === 'object' && !Array.isArray(unflatObject[index])) {
+              const temp = flatten(unflatObject[index]);
+              for (const newIndex in temp) {
+        result[index + '.' + newIndex] = temp[newIndex];
               }
           }
        else {
-              result[i] = unflatObject[i];
+              result[index] = unflatObject[index];
           }
       }
       return result;

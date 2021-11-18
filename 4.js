@@ -1,10 +1,10 @@
 // Problem 4: Complete the unflatten function that takes a JS Object, returns a JS Object in unflatten format
 function unflatten(data) {
     var result = {}
-    for (var i in data) {
-      var keys = i.split('.')
-      keys.reduce(function(r, e, j) {
-        return r[e] || (r[e] = isNaN(Number(keys[j + 1])) ? (keys.length - 1 == j ? data[i] : {}) : [])
+    for (var index in data) {
+      var keys = index.split('.')
+      keys.reduce(function(accumulator, currentvalue, currentindex) {
+        return accumulator[currentvalue] || (accumulator[currentvalue] = isNaN(Number(keys[currentindex + 1])) ? (keys.length - 1 == currentindex ? data[index] : {}) : [])
       }, result)
     }
     return result

@@ -2,9 +2,10 @@
 function calculateFrequency(string) {
     // Write your code here
      var freq = {};
-      for (var i=0; i<string.length;i++) {
-          var character = string.charAt(i);
+      for (var index=0; index<string.length;index++) {
+          var character = string.charAt(index);
           if (freq[character]) {
+              console.log(object)
              freq[character]++;
           } else {
              freq[character] = 1;
