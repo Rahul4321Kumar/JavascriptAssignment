@@ -4,7 +4,7 @@ function secondLargest(array) {
     var max = Math.max( ...array);
     
     var min=array.splice(array.indexOf(max), 1); //First largest number 
-    console.log(min)
+    console.log(min) //Omit out first largest number from array
     
     return Math.max(...array); //Second largest number
   }
